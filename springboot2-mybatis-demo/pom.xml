@@ -111,7 +111,7 @@
             </resource>
 
             <resource>
-                <!--此处配置到java是因为mapper.xml文件在java目录-->
+                <!--此处配置到java是因为mapper.xml文件在resources目录-->
                 <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.yml</include>
