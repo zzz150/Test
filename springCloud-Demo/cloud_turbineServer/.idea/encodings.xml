@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c_user_center/server1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c_user_center/server2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c_user_center/server3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c_user_center/server4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c_user_center/userApiGateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/docs/model.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/eurekaServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feignServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbonServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbineServer" charset="UTF-8" />
+  </component>
+</project>

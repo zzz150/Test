@@ -1,0 +1,37 @@
+开发时，暂时只用第一组服务器
+
+configServer1
+port=7101
+spring.cloud.config.uri=http://114.55.88.13:7101/
+
+configServer2
+port=7102
+spring.cloud.config.uri=http://114.55.88.13:7102/
+
+======================================================
+eurekaServer1
+port=7201
+eureka.client.serviceUrl.defaultZone = http://114.55.88.13:7201/eureka/
+
+eurekaServer2
+port=7202
+eureka.client.serviceUrl.defaultZone = http://114.55.88.13:7202/eureka/
+
+======================================================
+turbineServer1
+server.port=7301
+turbineServer2
+server.port=7302
+
+======================================================
+feignServer1
+server.port=7401
+feignServer2
+server.port=7402
+
+======================================================
+ribbonServer1
+server.port=7501
+ribbonServer2
+server.port=7502
+

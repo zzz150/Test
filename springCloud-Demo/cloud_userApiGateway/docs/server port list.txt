@@ -1,0 +1,44 @@
+spring.application.name=configServer
+server.port=1111
+logging.config=classpath:log4j2.xml
+
+
+spring.application.name= eurekaServer
+server.port=1112
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+eureka.client.serviceUrl.defaultZone = http://localhost:1112/eureka/
+logging.config=classpath:log4j2.xml
+
+
+spring.application.name=server1
+#server.port=1113
+spring.cloud.config.uri=http://localhost:1111/
+
+spring.application.name=server2
+#server.port=1114
+spring.cloud.config.uri=http://localhost:1111/
+
+#spring.application.name=server3
+#server.port=1115
+bootstarp++++
+spring.application.name=server3
+spring.cloud.config.uri=http://localhost:1111/
+
+spring.application.name=server4
+server.port=1116
+eureka.client.serviceUrl.defaultZone=http://localhost:1112/eureka/
+logging.config=classpath:log4j2.xml
+bootstarp++++
+spring.application.name=server4
+spring.cloud.config.uri=http://localhost:1111/
+
+
+spring.application.name = userApiGateway
+server.port=1117
+eureka.client.serviceUrl.defaultZone=http://localhost:1112/eureka/
+logging.config=classpath:log4j2.xml
+
+
+spring.application.name= turbineServer
+server.port=7777
