@@ -1,5 +1,6 @@
 package com.winter.controller;
 
+
 import com.winter.model.UserDomain;
 import com.winter.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,7 +36,7 @@ public class UserController {
 
     @RequestMapping(value = "/selectOne")
     @ResponseBody
-    public UserDomain  selectOne() {
+    public UserDomain selectOne() {
         UserDomain  user = userService.selectOne(1);
         System.out.println(user);
         return user;
